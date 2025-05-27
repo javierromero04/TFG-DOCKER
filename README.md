@@ -36,13 +36,15 @@ Centro: **CESUR Málaga Este**
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-Habilita e inicia el servicio:
 ```
+Habilita e inicia el servicio:
+
 ```bash
 sudo systemctl enable docker
 sudo systemctl start docker
-Verifica instalación:
 ```
+Verifica instalación:
+
 ```bash
 docker --version
 docker run hello-world
