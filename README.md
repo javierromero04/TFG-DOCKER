@@ -141,7 +141,7 @@ El registro más conocido es Docker Hub.
 Son instancias de una imagen.
 Cada contenedor es un entorno aislado con todo lo necesario para ejecutar una aplicación.
 
-⚙️ Docker Engine y sus componentes
+## ⚙️ Docker Engine y sus componentes
 El Docker Engine es el corazón de Docker, basado también en una arquitectura cliente-servidor.
 
 Servidor (dockerd): administra contenedores, imágenes, redes y volúmenes.
