@@ -86,17 +86,17 @@ docker compose up -d
 ```
 Accede en http://localhost:8069
 ---
-📊 Monitorización
+## 📊 Monitorización
 Incluye configuración para Prometheus y Grafana en contenedores, con dashboards y métricas accesibles desde el navegador:
 
 Grafana: http://localhost:3000
 Prometheus: http://localhost:9090
 ---
-🔄 Orquestación y Automatización
+## 🔄 Orquestación y Automatización
 Kubernetes: despliegue de contenedores usando kubectl y minikube
 Terraform: automatización de recursos con main.tf usando LocalStack
 ---
-📚 Conclusión
+## 📚 Conclusión
 Elegí Docker como tema porque sabía que me iba a ser útil, no solo para sacar el proyecto
 adelante, sino también para aprender algo que realmente me sirviera en el trabajo y de cara al
 futuro. Justo en mis prácticas estoy trabajando con esta tecnología, así que todo lo que he ido
@@ -115,18 +115,30 @@ algo que al principio no había tenido en cuenta y que ahora considero que es un
 importante para realizar este tipo de trabajo.
 En definitiva, este trabajo me ha ayudado a crecer en el ámbito de esta tecnología, dándome
 una base sólida para mi futuro profesional.
+
 ---
-🌐 WEBGRAFÍA
+## 🌐 WEBGRAFÍA
 
 Docker (RedHat)
+
 Openinnova - Qué es Docker
+
 Docker Docs Oficiales
+
 Comparativa Docker vs Máquinas Virtuales (AWS)
+
 Apache HTTP Server
+
 Nginx
+
 Grafana
+
 Prometheus
+
 Portainer
+
 Kubernetes
+
 Terraform
+
 Jess Frazelle Dockerfiles
