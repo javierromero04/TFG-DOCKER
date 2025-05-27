@@ -84,5 +84,13 @@ networks:
 docker compose up -d
 ```
 Accede en http://localhost:8069
+📊 Monitorización
+Incluye configuración para Prometheus y Grafana en contenedores, con dashboards y métricas accesibles desde el navegador:
 
+Grafana: http://localhost:3000
+Prometheus: http://localhost:9090
+
+🔄 Orquestación y Automatización
+Kubernetes: despliegue de contenedores usando kubectl y minikube
+Terraform: automatización de recursos con main.tf usando LocalStack
 
