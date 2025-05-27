@@ -129,15 +129,15 @@ Docker utiliza una arquitectura cliente-servidor.
 El cliente de Docker se comunica con el Docker Daemon, que se encarga de crear, ejecutar y distribuir los contenedores. Ambos pueden ejecutarse en el mismo sistema o en sistemas distintos (cliente remoto y daemon remoto).
 El cliente de Docker acepta comandos del usuario y los envía al daemon para su ejecución.
 
-## 🧩 Componentes clave
-Imágenes
+### 🧩 Componentes clave
+#### Imágenes
 Son plantillas de solo lectura.
 Una imagen puede tener un sistema operativo (como Ubuntu o CentOS) con servicios preinstalados (como Apache).
 Los cambios realizados dentro de un contenedor no se guardan en la imagen original.
-Registros
+### Registros
 Repositorios públicos o privados donde se almacenan imágenes.
 El registro más conocido es Docker Hub.
-Contenedores
+### Contenedores
 Son instancias de una imagen.
 Cada contenedor es un entorno aislado con todo lo necesario para ejecutar una aplicación.
 
@@ -149,13 +149,13 @@ API REST: permite a otras aplicaciones comunicarse con el daemon.
 CLI (Interfaz de Línea de Comandos): es el cliente desde donde ejecutamos comandos como docker run.
 
 ## 📦 Objetos Docker: Volúmenes y Redes
-🗃️ Volúmenes
+### 🗃️ Volúmenes
 Son áreas especiales para almacenar datos fuera del contenedor.
 Persisten aunque el contenedor se elimine o reinicie.
 No incrementan el tamaño del contenedor.
 Funcionan en Windows y Linux.
 
-🌐 Redes
+### 🌐 Redes
 Docker permite que los contenedores se comuniquen entre sí mediante redes virtuales.
 Tipos de redes disponibles:
 Bridge: por defecto, conecta contenedores en un mismo host.
