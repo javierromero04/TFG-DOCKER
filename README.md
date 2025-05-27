@@ -66,7 +66,7 @@ versiones y su distribución.
 La adopción de Docker en el desarrollo de aplicaciones trae una serie de beneficios
 que mejoran la eficiencia, la consistencia y la colaboración entre equipos.
 Entre las principales ventajas de utilizar Docker se encuentran:
-📖 MODULARIDAD
+### 📖 MODULARIDAD
 El enfoque de Docker seria como hacer las cosas por partes en vez de hacerlo todo a la vez.
 Con Docker en vez de tener una aplicación grande haciendo todo el trabajo podríamos dividirla en
 partes pequeñas como si fueran piezas (contenedores) encargadas de algo en específico.
@@ -76,7 +76,7 @@ actualizar contenedores y moverlos.
 Un ejemplo del funcionamiento sería que son como piezas de lego, cada contenedor es una
 pieza y tú vas decidiendo como las juntas, otro ejemplo sería comparar Docker con una caja de
 herramientas bien organizada, cada herramienta tiene su función y lugar.
-📖 CAPAS Y CONTROL DE VERSIONES DE LAS IMÁGENES
+### 📖 CAPAS Y CONTROL DE VERSIONES DE LAS IMÁGENES
 Cada archivo está compuesto por varias capas que forman una sola imagen. Cuando el
 usuario lanza un comando, como copiar, ejecutar, etc. la imagen cambia y se va creando una capa
 nueva.
@@ -85,12 +85,12 @@ haces cambios en las imágenes de Docker, esos cambios se van guardando por part
 a que todo funcione más rápido, ocupe menos espacio y sea más eficiente.
 Además, Docker recuerda cada cambio que haces, como si llevara un historial. Gracias a
 eso, puedes tener control total sobre tus contenedores y saber qué se modificó en cada momento.
-📖  RESTAURACIÓN
+### 📖  RESTAURACIÓN
 Un gran beneficio de las capas es la capacidad que tiene de restaurar a versiones anteriores.
 Cada imagen cuenta con las capas que se van creando. Si no te gusta una imagen actual puedes
 restaurarla a una versión anterior a la que usas. Esto ayuda a trabajar de forma más rápida y flexible,
 y permite que los cambios en el código se puedan probar y poner en marcha de manera constante usando las herramientas adecuadas.
-📖  IMPLEMENTACIÓN RÁPIDA
+### 📖  IMPLEMENTACIÓN RÁPIDA
 Antes, poner en marcha un equipo de trabajo tardaba más tiempo, tenía más coste y costaba
 más trabajo. Pero con Docker todo es más rápido y más manejable, al enfocarse en usar
 contenedores y en hacer todo de forma más eficiente.
@@ -98,18 +98,18 @@ contenedores y en hacer todo de forma más eficiente.
 ## 📚 DESVENTAJAS
 Es fundamental sopesar las desventajas de cualquier herramienta o software nuevo para
 determinar si es adecuado. Las principales desventajas de utilizar Docker serían las siguientes:
-📖 Documentación obsoleta
+### 📖 Documentación obsoleta
 La cultura de código abierto que sustenta Docker garantiza la constante evolución del
 software. Si bien este ritmo vertiginoso de cambio es positivo en la mayoría de los aspectos, puede
 implicar que la comunidad a veces se adelanta a los acontecimientos. Docker es conocido por
 su extensa biblioteca de documentación, pero la nueva documentación no siempre puede seguir el
 ritmo de las nuevas versiones y actualizaciones del software.
-📖 La curva de aprendizaje.
+### 📖 La curva de aprendizaje.
 Aprender lo básico no es necesariamente imposible, pero dominar Docker o alcanzar la
 excelencia suele requerir mucho tiempo y esfuerzo. Las extensiones de Docker y otras herramientas
 adicionales compatibles con Docker son útiles en muchos sentidos, pero también dificultan aún más
 el aprendizaje del software.
-📖 Seguridad
+### 📖 Seguridad
 El aislamiento o la segmentación son principios importantes en la arquitectura de red
 moderna, específicamente para evitar el riesgo de que varios contenedores o entornos se vean
 afectados simultáneamente cuando un atacante vulnera el sistema host. Por lo tanto, si bien las
@@ -117,8 +117,7 @@ máquinas virtuales requieren espacio en el servidor y más memoria para funcion
 cada una use su propio sistema operativo refuerza la seguridad. Es posible combatir estos
 problemas de seguridad con los contenedores integrándolos en las infraestructuras existentes y
 heredando sus estándares de seguridad, pero esto introduce aún más complejidad.
-
-📖 Orquestación limitada
+### 📖 Orquestación limitada
 Aunque Docker ofrece algunas funciones de automatización, sus capacidades de
 automatización y orquestación no son tan robustas como las de otras plataformas contenedorizadas
 como Kubernetes. Sin una orquestación exhaustiva, puede resultar difícil gestionar varios
