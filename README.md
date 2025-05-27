@@ -158,11 +158,11 @@ Funcionan en Windows y Linux.
 ### 🌐 Redes
 Docker permite que los contenedores se comuniquen entre sí mediante redes virtuales.
 Tipos de redes disponibles:
-Bridge: por defecto, conecta contenedores en un mismo host.
-Host: el contenedor comparte la red del host (sin aislamiento).
-None: sin conexión de red (totalmente aislado).
-Overlay: permite comunicación entre contenedores en diferentes hosts (útil con Kubernetes).
-Macvlan: asigna al contenedor una IP propia dentro de la red física.
+#### Bridge: por defecto, conecta contenedores en un mismo host.
+#### Host: el contenedor comparte la red del host (sin aislamiento).
+#### None: sin conexión de red (totalmente aislado).
+#### Overlay: permite comunicación entre contenedores en diferentes hosts (útil con Kubernetes).
+#### Macvlan: asigna al contenedor una IP propia dentro de la red física.
 
 ## ⚙️ Instalación
 
