@@ -49,6 +49,7 @@ Verifica instalación:
 docker --version
 docker run hello-world
 ```
+---
 🚀 Cómo levantar contenedores
 Levantar Odoo con Docker Compose
 ```bash
@@ -84,13 +85,48 @@ networks:
 docker compose up -d
 ```
 Accede en http://localhost:8069
+---
 📊 Monitorización
 Incluye configuración para Prometheus y Grafana en contenedores, con dashboards y métricas accesibles desde el navegador:
 
 Grafana: http://localhost:3000
 Prometheus: http://localhost:9090
-
+---
 🔄 Orquestación y Automatización
 Kubernetes: despliegue de contenedores usando kubectl y minikube
 Terraform: automatización de recursos con main.tf usando LocalStack
+---
+📚 Conclusión
+Elegí Docker como tema porque sabía que me iba a ser útil, no solo para sacar el proyecto
+adelante, sino también para aprender algo que realmente me sirviera en el trabajo y de cara al
+futuro. Justo en mis prácticas estoy trabajando con esta tecnología, así que todo lo que he ido
+aprendiendo durante el proyecto me ha servido directamente para desenvolverme mejor en el día a
+día.
+Durante el proceso he tenido que enfrentarme a muchas cosas que no conocía: comandos,
+configuraciones, errores… Pero eso ha hecho que aprenda mucho más. No solo ha sido seguir
+tutoriales, he tenido que entender que estaba haciendo y el por qué. Muchas veces me he atascado
+y otras he podido avanzar más rápido, pero por lo general me ha ayudado a crecer en conocimientos
+de esta tecnología, a buscar soluciones y a organizarme mejor.
+He podido ver sobre muchas herramientas que están relacionadas con Docker, algunas eran
+más sencillas y otras mucho más complejas, pero cada una me ha ido aportando conocimientos.
+Una de las cosas que más he aprendido a valorar ha sido el tener una documentación actualizada
+sobra esta tecnología, ya que evoluciona de manera rápida. También he aprendido a ser metódico,
+algo que al principio no había tenido en cuenta y que ahora considero que es un factor muy
+importante para realizar este tipo de trabajo.
+En definitiva, este trabajo me ha ayudado a crecer en el ámbito de esta tecnología, dándome
+una base sólida para mi futuro profesional.
+---
+🌐 WEBGRAFÍA
 
+Docker (RedHat)
+Openinnova - Qué es Docker
+Docker Docs Oficiales
+Comparativa Docker vs Máquinas Virtuales (AWS)
+Apache HTTP Server
+Nginx
+Grafana
+Prometheus
+Portainer
+Kubernetes
+Terraform
+Jess Frazelle Dockerfiles
