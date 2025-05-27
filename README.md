@@ -50,3 +50,39 @@ docker --version
 docker run hello-world
 ```
 🚀 Cómo levantar contenedores
+Levantar Odoo con Docker Compose
+```bash
+yaml
+Copiar
+Editar
+version: '3'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    networks:
+      - odoo-net
+
+  odoo:
+    image: odoo:17
+    ports:
+      - "8069:8069"
+    environment:
+      HOST: db
+      USER: odoo
+      PASSWORD: odoo
+    networks:
+      - odoo-net
+
+networks:
+  odoo-net:
+```
+```bash
+docker compose up -d
+```
+Accede en http://localhost:8069
+
+
