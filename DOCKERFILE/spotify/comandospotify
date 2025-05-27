@@ -1,0 +1,10 @@
+# Permitir acceso gráfico a root
+xhost +local:root
+
+# Luego lanzar Spotify
+docker run -it --rm \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  --net=host \
+  --device /dev/snd \
+  mtabishk/spotify-app

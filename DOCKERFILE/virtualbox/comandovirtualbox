@@ -1,0 +1,7 @@
+primero si no funciona es borrar la imagen con docker rm virtualbox
+ 
+docker run -it --privileged --rm \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    --name virtualbox \
+    jess/virtualbox

@@ -1,0 +1,10 @@
+docker run -it --rm \
+  -e DISPLAY=$DISPLAY \
+  -e PULSE_SERVER=unix:/run/user/1000/pulse/native \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v $HOME/.Xauthority:/home/usuario/.Xauthority \
+  -e XAUTHORITY=/home/usuario/.Xauthority \
+  -v /run/user/1000/pulse:/run/user/1000/pulse \
+  -v /home/javi/Descargas:/home/usuario/Descargas \
+  --device /dev/snd \
+  vlc-docker vlc /home/usuario/Descargas/mi_video.mp4
