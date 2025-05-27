@@ -252,26 +252,36 @@ una base sólida para mi futuro profesional.
 
 ## 🌐 WEBGRAFÍA
 
-Docker (RedHat)
+Teoría de Docker:
+RedHat,
+Openinnova,
+Oracle
 
-Openinnova - Qué es Docker
+Manuales oficiales de Docker:
+Documentación oficial
 
-Docker Docs Oficiales
+Foros y guías:
+Arquitectura de Docker - JSI Tech
 
-Comparativa Docker vs Máquinas Virtuales (AWS)
+Comparativas:
+Apache vs Nginx
+Docker vs Máquinas Virtuales (AWS)
 
-Apache HTTP Server
+Tecnologías específicas:
 
 Nginx
 
+Apache
+
 Grafana
 
-Prometheus
+Portainer (Izertis)
+y Portainer (Netmentor)
 
-Portainer
+Kubernetes (Docker)
+y Kubernetes (Oficial)
 
-Kubernetes
+Contenedores de la comunidad (Jess Frazelle)
 
-Terraform
-
-Jess Frazelle Dockerfiles
+Terraform (Provider Docker)
+y Terraform vs Docker (Pure Storage)
