@@ -46,7 +46,7 @@ Los Docker y servicios de contenedores se han adoptado rápidamente y han tenido
 desconocida y bastante técnica en 2013 a un entorno de ejecución estandarizado que ahora es
 oficialmente compatible con multitud de productos de Oracle Enterprise.
 
-📚 FUNCIONAMIENTO
+## 📚 FUNCIONAMIENTO
 La tecnología Docker utiliza el kernel de Linux y sus funciones, como los grupos de control
 y los espacios de nombre, para dividir los procesos y ejecutarlos de manera independiente. El
 propósito de los contenedores es ejecutar varios procesos y aplicaciones por separado para que se
@@ -62,7 +62,7 @@ tecnología Docker es sencilla y única. Además, ofrecen a los usuarios acceso 
 aplicaciones, la posibilidad de realizar implementaciones en poco tiempo y el control sobre las
 versiones y su distribución.
 
-📚 VENTAJAS
+## 📚 VENTAJAS
 La adopción de Docker en el desarrollo de aplicaciones trae una serie de beneficios
 que mejoran la eficiencia, la consistencia y la colaboración entre equipos.
 Entre las principales ventajas de utilizar Docker se encuentran:
@@ -95,7 +95,7 @@ Antes, poner en marcha un equipo de trabajo tardaba más tiempo, tenía más cos
 más trabajo. Pero con Docker todo es más rápido y más manejable, al enfocarse en usar
 contenedores y en hacer todo de forma más eficiente.
 
-📚 DESVENTAJAS
+## 📚 DESVENTAJAS
 Es fundamental sopesar las desventajas de cualquier herramienta o software nuevo para
 determinar si es adecuado. Las principales desventajas de utilizar Docker serían las siguientes:
 📖 Documentación obsoleta
@@ -125,12 +125,12 @@ como Kubernetes. Sin una orquestación exhaustiva, puede resultar difícil gesti
 contenedores y entornos simultáneamente. Los equipos de DevOps dependen de la orquestación
 para ser eficaces, por lo que usar Docker requeriría herramientas externas o de terceros.
 
-🧱 Arquitectura de Docker
+## 🧱 Arquitectura de Docker
 Docker utiliza una arquitectura cliente-servidor.
 El cliente de Docker se comunica con el Docker Daemon, que se encarga de crear, ejecutar y distribuir los contenedores. Ambos pueden ejecutarse en el mismo sistema o en sistemas distintos (cliente remoto y daemon remoto).
 El cliente de Docker acepta comandos del usuario y los envía al daemon para su ejecución.
 
-🧩 Componentes clave
+## 🧩 Componentes clave
 Imágenes
 Son plantillas de solo lectura.
 Una imagen puede tener un sistema operativo (como Ubuntu o CentOS) con servicios preinstalados (como Apache).
@@ -149,7 +149,7 @@ Servidor (dockerd): administra contenedores, imágenes, redes y volúmenes.
 API REST: permite a otras aplicaciones comunicarse con el daemon.
 CLI (Interfaz de Línea de Comandos): es el cliente desde donde ejecutamos comandos como docker run.
 
-📦 Objetos Docker: Volúmenes y Redes
+## 📦 Objetos Docker: Volúmenes y Redes
 🗃️ Volúmenes
 Son áreas especiales para almacenar datos fuera del contenedor.
 Persisten aunque el contenedor se elimine o reinicie.
