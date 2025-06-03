@@ -184,7 +184,7 @@ docker --version
 docker run hello-world
 ```
 ---
-🚀 Cómo levantar contenedores
+🚀 Cómo levantar contenedores, 
 Levantar Odoo con Docker Compose
 ```bash
 yaml
